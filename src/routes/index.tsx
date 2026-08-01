@@ -35,6 +35,7 @@ function Index() {
     <>
       <TopBar />
       <main>
+        <HouseModel />
         <Hero />
         <MetricStrip />
 
@@ -57,25 +58,6 @@ function Index() {
           </div>
 
           <LondonMap selected={borough} onSelect={setBorough} />
-        </section>
-
-        <section className="explorer">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">THE UNIT · WHAT IS NOT BEING BUILT</p>
-              <h2>
-                One home,
-                <br />
-                <em>on paper</em>.
-              </h2>
-            </div>
-            <p className="disclaimer">
-              The register counts {fmt(totals.homes)} of these &mdash; approved, consented
-              and unbuilt. Drag to rotate.
-            </p>
-          </div>
-
-          <HouseModel />
         </section>
 
         <Narrative />
