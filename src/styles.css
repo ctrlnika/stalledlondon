@@ -1168,3 +1168,7 @@ tbody tr.active {
     border-bottom: 1px solid var(--line);
   }
 }
+
+.sim-note {
+  max-width: none;
+}
