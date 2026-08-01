@@ -35,7 +35,6 @@ function Index() {
     <>
       <TopBar />
       <main>
-        <HouseModel />
         <Hero />
         <MetricStrip />
 
