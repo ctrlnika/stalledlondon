@@ -1,29 +1,56 @@
-# Welcome to your Lovable project
+# Stalled London
 
-This project was built with [Lovable](https://lovable.dev).
+An interactive data storytelling platform that visualises London's stalled housing pipeline and the affordability gap it creates.
 
-## Build with Lovable
+Built for the **Lovable Data Freestyle hackathon**, it turns planning and housing data into an explorable story: an interactive borough map, a stalled sites register, and a simulation of what it would mean if London's approved-but-unbuilt homes were actually delivered.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## What it covers
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Live metrics** — total stalled units, approvals with no construction start, and estimated years of missing supply.
+- **Interactive London map** — switch between demand pressure, supply delivery, stalled site counts, and affordability gap layers.
+- **Stalled sites register** — browse high-risk sites by borough, age of permission, and size.
+- **Affordability simulation** — model how building the ~100,000 approved-but-unstarted homes would affect London prices and buyer affordability.
+- **Historical context** — decades of UK house prices vs. earnings, sourced from Nationwide and the ONS.
+
+## Data sources
+
+- UK PlanIt / Planning Data API (gov.uk)
+- Planning London Datahub (GLA)
+- MHCLG Housing Delivery Test
+- Land Registry / HM Revenue and Customs
+- ONS Census 2021 and Average Weekly Earnings
+- Nationwide Building Society house price index
+
+## Tech stack
+
+- **Framework:** TanStack Start (React 19, SSR/SSG)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS v4
+- **Build tool:** Vite 7
+- **Data processing:** Python (Python 3, pandas, requests)
+- **Deployment:** Cloudflare Workers (edge)
 
 ## Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Requires Node.js and a package manager (`npm` / `bun`):
 
 ```sh
 git clone <this-repository-url>
 cd <repository-name>
-npm i
-npm run dev
+bun install
+bun run dev
 ```
 
-## Built with
+Open the local dev server at `http://localhost:8080`.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Build
+
+```sh
+bun run build
+```
+
+The project is designed to run on the edge as a Cloudflare Worker, with `nodejs_compat` enabled for TanStack Start's server functions.
+
+---
+
+Built with [Lovable](https://lovable.dev).
