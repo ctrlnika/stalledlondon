@@ -35,8 +35,8 @@ function Index() {
     <>
       <TopBar />
       <main>
-        <HouseModel />
         <Hero />
+        <HouseModel />
         <MetricStrip />
 
         <section className="explorer">
