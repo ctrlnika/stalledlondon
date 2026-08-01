@@ -35,6 +35,26 @@ function Index() {
     <>
       <TopBar />
       <main>
+        <section className="explorer" style={{ paddingBottom: 0 }}>
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">THE UNIT · WHAT IS NOT BEING BUILT</p>
+              <h2>
+                One home,
+                <br />
+                <em>multiplied</em> {fmt(totals.homes)} times.
+              </h2>
+            </div>
+            <p className="disclaimer">
+              Every consent in the register resolves to something like this: a terraced
+              house, a flat, a doorstep. Drag to rotate the model — then remember the
+              register counts {fmt(totals.homes)} of them that exist only on paper.
+            </p>
+          </div>
+
+          <HouseModel />
+        </section>
+
         <Hero />
         <MetricStrip />
 
@@ -57,26 +77,6 @@ function Index() {
           </div>
 
           <LondonMap selected={borough} onSelect={setBorough} />
-        </section>
-
-        <section className="explorer">
-          <div className="section-heading">
-            <div>
-              <p className="eyebrow">THE UNIT · WHAT IS NOT BEING BUILT</p>
-              <h2>
-                One home,
-                <br />
-                <em>multiplied</em> {fmt(totals.homes)} times.
-              </h2>
-            </div>
-            <p className="disclaimer">
-              Every consent in the register resolves to something like this: a terraced
-              house, a flat, a doorstep. Drag to rotate the model — then remember the
-              register counts {fmt(totals.homes)} of them that exist only on paper.
-            </p>
-          </div>
-
-          <HouseModel />
         </section>
 
         <Narrative />
