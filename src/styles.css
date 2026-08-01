@@ -383,21 +383,18 @@ code {
   padding-top: 26px;
 }
 .layer-selector {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   border: 1px solid var(--ink);
   margin-bottom: 22px;
 }
 .layer-selector button {
-  flex: 1 1 auto;
   padding: 12px 14px;
   border: 0;
   border-right: 1px solid var(--ink);
   background: transparent;
   color: var(--ink);
   text-align: left;
-  min-width: 130px;
 }
 .layer-selector button:last-child {
   border-right: 0;
@@ -905,6 +902,12 @@ tbody tr.active {
 @media (max-width: 980px) {
   .map-layout {
     grid-template-columns: 1fr;
+  }
+  .layer-selector {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .layer-selector button {
+    border-bottom: 1px solid var(--ink);
   }
   .scorecard {
     position: static;
