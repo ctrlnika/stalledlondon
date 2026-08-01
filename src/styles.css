@@ -343,6 +343,30 @@ h2 em {
 }
 
 /* --- sections -------------------------------------------------------------- */
+.model-embed {
+  margin-top: 44px;
+  border: 1px solid var(--ink);
+}
+.model-embed iframe {
+  display: block;
+  width: 100%;
+  height: clamp(320px, 52vh, 560px);
+  border: 0;
+  background: var(--ink);
+}
+.model-credit {
+  margin: 0;
+  padding: 10px 14px;
+  border-top: 1px solid var(--ink);
+  font: 10px/1.4 "DM Mono", monospace;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.model-credit a {
+  color: inherit;
+}
+
 .explorer {
   padding: 100px 3.2vw;
 }
