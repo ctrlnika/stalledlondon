@@ -9,7 +9,7 @@ import { Narrative } from "@/components/Narrative";
 import { SiteFooter } from "@/components/SiteFooter";
 import { StalledRegister } from "@/components/StalledRegister";
 import { TopBar } from "@/components/TopBar";
-import { fmt } from "@/lib/metrics";
+import { fmt, totals } from "@/lib/metrics";
 
 const title = "Stalled London — 100,477 approved homes that never started";
 const description =
