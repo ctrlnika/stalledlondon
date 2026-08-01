@@ -54,8 +54,11 @@ export function LineChart({
     { length: ticks + 1 },
     (_, i) => minY + ((maxY - minY) / ticks) * i,
   );
+  const rawStep = (maxX - minX) / 5;
+  const mag = Math.pow(10, Math.floor(Math.log10(rawStep)));
+  const xStep = Math.max(mag, Math.round(rawStep / mag) * mag);
   const xTicks: number[] = [];
-  for (let y = Math.ceil(minX / 10) * 10; y <= maxX; y += 10) xTicks.push(y);
+  for (let v = Math.ceil(minX / xStep) * xStep; v <= maxX; v += xStep) xTicks.push(v);
 
   const active = hoverX;
 
