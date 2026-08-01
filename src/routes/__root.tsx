@@ -85,7 +85,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Interactive data storytelling on London homes with planning permission but no recorded construction start.",
       },
       { name: "author", content: "Stalled London" },
-      { property: "og:title", content: "Stalled London" },
+      { property: "og:title", content: "Stalled London — approved homes that never started" },
       {
         property: "og:description",
         content:
@@ -93,6 +93,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Stalled London — approved homes that never started" },
+      { name: "twitter:description", content: "Interactive data storytelling on London homes with planning permission but no recorded construction start." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/dad4e5cc-5197-4fbf-ab69-62ec3c63792c" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/dad4e5cc-5197-4fbf-ab69-62ec3c63792c" },
     ],
     links: [
       {
