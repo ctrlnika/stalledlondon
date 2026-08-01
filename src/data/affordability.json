@@ -1,0 +1,483 @@
+{
+ "series": [
+  {
+   "year": 1975,
+   "price_nominal": 10846,
+   "price_real": 128278,
+   "earn_nominal": 2123,
+   "earn_real": 30683,
+   "ratio": 5.11,
+   "partial": false
+  },
+  {
+   "year": 1976,
+   "price_nominal": 11866,
+   "price_real": 120016,
+   "earn_nominal": 2473,
+   "earn_real": 28644,
+   "ratio": 4.8,
+   "partial": false
+  },
+  {
+   "year": 1977,
+   "price_nominal": 12804,
+   "price_real": 111779,
+   "earn_nominal": 2720,
+   "earn_real": 27155,
+   "ratio": 4.71,
+   "partial": false
+  },
+  {
+   "year": 1978,
+   "price_nominal": 15262,
+   "price_real": 122923,
+   "earn_nominal": 3080,
+   "earn_real": 26550,
+   "ratio": 4.96,
+   "partial": false
+  },
+  {
+   "year": 1979,
+   "price_nominal": 19830,
+   "price_real": 140808,
+   "earn_nominal": 3595,
+   "earn_real": 28631,
+   "ratio": 5.52,
+   "partial": false
+  },
+  {
+   "year": 1980,
+   "price_nominal": 23288,
+   "price_real": 140475,
+   "earn_nominal": 4367,
+   "earn_real": 30662,
+   "ratio": 5.33,
+   "partial": false
+  },
+  {
+   "year": 1981,
+   "price_nominal": 23954,
+   "price_real": 129116,
+   "earn_nominal": 4969,
+   "earn_real": 29592,
+   "ratio": 4.82,
+   "partial": false
+  },
+  {
+   "year": 1982,
+   "price_nominal": 24851,
+   "price_real": 123236,
+   "earn_nominal": 5451,
+   "earn_real": 28998,
+   "ratio": 4.56,
+   "partial": false
+  },
+  {
+   "year": 1983,
+   "price_nominal": 27623,
+   "price_real": 130908,
+   "earn_nominal": 5923,
+   "earn_real": 29020,
+   "ratio": 4.66,
+   "partial": false
+  },
+  {
+   "year": 1984,
+   "price_nominal": 31076,
+   "price_real": 140296,
+   "earn_nominal": 6293,
+   "earn_real": 29478,
+   "ratio": 4.94,
+   "partial": false
+  },
+  {
+   "year": 1985,
+   "price_nominal": 34378,
+   "price_real": 146406,
+   "earn_nominal": 6853,
+   "earn_real": 30556,
+   "ratio": 5.02,
+   "partial": false
+  },
+  {
+   "year": 1986,
+   "price_nominal": 37626,
+   "price_real": 154891,
+   "earn_nominal": 7399,
+   "earn_real": 31094,
+   "ratio": 5.09,
+   "partial": false
+  },
+  {
+   "year": 1987,
+   "price_nominal": 43164,
+   "price_real": 170633,
+   "earn_nominal": 7984,
+   "earn_real": 32407,
+   "ratio": 5.41,
+   "partial": false
+  },
+  {
+   "year": 1988,
+   "price_nominal": 51405,
+   "price_real": 193460,
+   "earn_nominal": 8718,
+   "earn_real": 33957,
+   "ratio": 5.9,
+   "partial": false
+  },
+  {
+   "year": 1989,
+   "price_nominal": 61514,
+   "price_real": 215074,
+   "earn_nominal": 9554,
+   "earn_real": 35548,
+   "ratio": 6.44,
+   "partial": false
+  },
+  {
+   "year": 1990,
+   "price_nominal": 57683,
+   "price_real": 184488,
+   "earn_nominal": 10562,
+   "earn_real": 36376,
+   "ratio": 5.46,
+   "partial": false
+  },
+  {
+   "year": 1991,
+   "price_nominal": 54626,
+   "price_real": 164827,
+   "earn_nominal": 11384,
+   "earn_real": 35823,
+   "ratio": 4.8,
+   "partial": false
+  },
+  {
+   "year": 1992,
+   "price_nominal": 51815,
+   "price_real": 150748,
+   "earn_nominal": 12067,
+   "earn_real": 35869,
+   "ratio": 4.29,
+   "partial": false
+  },
+  {
+   "year": 1993,
+   "price_nominal": 51210,
+   "price_real": 146634,
+   "earn_nominal": 12426,
+   "earn_real": 35663,
+   "ratio": 4.12,
+   "partial": false
+  },
+  {
+   "year": 1994,
+   "price_nominal": 51634,
+   "price_real": 144288,
+   "earn_nominal": 12895,
+   "earn_real": 36348,
+   "ratio": 4.0,
+   "partial": false
+  },
+  {
+   "year": 1995,
+   "price_nominal": 51245,
+   "price_real": 138476,
+   "earn_nominal": 13316,
+   "earn_real": 36716,
+   "ratio": 3.85,
+   "partial": false
+  },
+  {
+   "year": 1996,
+   "price_nominal": 53394,
+   "price_real": 140829,
+   "earn_nominal": 13799,
+   "earn_real": 36774,
+   "ratio": 3.87,
+   "partial": false
+  },
+  {
+   "year": 1997,
+   "price_nominal": 59199,
+   "price_real": 151365,
+   "earn_nominal": 14408,
+   "earn_real": 37511,
+   "ratio": 4.11,
+   "partial": false
+  },
+  {
+   "year": 1998,
+   "price_nominal": 65201,
+   "price_real": 161230,
+   "earn_nominal": 15158,
+   "earn_real": 38221,
+   "ratio": 4.3,
+   "partial": false
+  },
+  {
+   "year": 1999,
+   "price_nominal": 71122,
+   "price_real": 173164,
+   "earn_nominal": 15852,
+   "earn_real": 38671,
+   "ratio": 4.49,
+   "partial": false
+  },
+  {
+   "year": 2000,
+   "price_nominal": 80366,
+   "price_real": 190126,
+   "earn_nominal": 16519,
+   "earn_real": 39790,
+   "ratio": 4.87,
+   "partial": false
+  },
+  {
+   "year": 2001,
+   "price_nominal": 88799,
+   "price_real": 206281,
+   "earn_nominal": 17368,
+   "earn_real": 40589,
+   "ratio": 5.11,
+   "partial": false
+  },
+  {
+   "year": 2002,
+   "price_nominal": 106407,
+   "price_real": 243155,
+   "earn_nominal": 17919,
+   "earn_real": 41142,
+   "ratio": 5.94,
+   "partial": false
+  },
+  {
+   "year": 2003,
+   "price_nominal": 127246,
+   "price_real": 282643,
+   "earn_nominal": 18495,
+   "earn_real": 41706,
+   "ratio": 6.88,
+   "partial": false
+  },
+  {
+   "year": 2004,
+   "price_nominal": 148359,
+   "price_real": 320044,
+   "earn_nominal": 19301,
+   "earn_real": 42337,
+   "ratio": 7.69,
+   "partial": false
+  },
+  {
+   "year": 2005,
+   "price_nominal": 156324,
+   "price_real": 327994,
+   "earn_nominal": 20202,
+   "earn_real": 42864,
+   "ratio": 7.74,
+   "partial": false
+  },
+  {
+   "year": 2006,
+   "price_nominal": 166470,
+   "price_real": 338391,
+   "earn_nominal": 21151,
+   "earn_real": 43793,
+   "ratio": 7.87,
+   "partial": false
+  },
+  {
+   "year": 2007,
+   "price_nominal": 181364,
+   "price_real": 353665,
+   "earn_nominal": 22182,
+   "earn_real": 44564,
+   "ratio": 8.18,
+   "partial": false
+  },
+  {
+   "year": 2008,
+   "price_nominal": 168973,
+   "price_real": 316988,
+   "earn_nominal": 22971,
+   "earn_real": 44265,
+   "ratio": 7.36,
+   "partial": false
+  },
+  {
+   "year": 2009,
+   "price_nominal": 156512,
+   "price_real": 294952,
+   "earn_nominal": 22532,
+   "earn_real": 41572,
+   "ratio": 6.95,
+   "partial": false
+  },
+  {
+   "year": 2010,
+   "price_nominal": 165483,
+   "price_real": 298182,
+   "earn_nominal": 23062,
+   "earn_real": 42786,
+   "ratio": 7.18,
+   "partial": false
+  },
+  {
+   "year": 2011,
+   "price_nominal": 165131,
+   "price_real": 282884,
+   "earn_nominal": 23650,
+   "earn_real": 41937,
+   "ratio": 6.98,
+   "partial": false
+  },
+  {
+   "year": 2012,
+   "price_nominal": 163628,
+   "price_real": 271568,
+   "earn_nominal": 23951,
+   "earn_real": 40507,
+   "ratio": 6.83,
+   "partial": false
+  },
+  {
+   "year": 2013,
+   "price_nominal": 168928,
+   "price_real": 272010,
+   "earn_nominal": 24216,
+   "earn_real": 39714,
+   "ratio": 6.98,
+   "partial": false
+  },
+  {
+   "year": 2014,
+   "price_nominal": 185620,
+   "price_real": 291982,
+   "earn_nominal": 24476,
+   "earn_real": 38886,
+   "ratio": 7.58,
+   "partial": false
+  },
+  {
+   "year": 2015,
+   "price_nominal": 193900,
+   "price_real": 302068,
+   "earn_nominal": 25048,
+   "earn_real": 38768,
+   "ratio": 7.74,
+   "partial": false
+  },
+  {
+   "year": 2016,
+   "price_nominal": 203771,
+   "price_real": 312019,
+   "earn_nominal": 25646,
+   "earn_real": 39431,
+   "ratio": 7.95,
+   "partial": false
+  },
+  {
+   "year": 2017,
+   "price_nominal": 209935,
+   "price_real": 310392,
+   "earn_nominal": 26265,
+   "earn_real": 39575,
+   "ratio": 7.99,
+   "partial": false
+  },
+  {
+   "year": 2018,
+   "price_nominal": 214163,
+   "price_real": 306385,
+   "earn_nominal": 27030,
+   "earn_real": 39342,
+   "ratio": 7.92,
+   "partial": false
+  },
+  {
+   "year": 2019,
+   "price_nominal": 215334,
+   "price_real": 300345,
+   "earn_nominal": 27966,
+   "earn_real": 39271,
+   "ratio": 7.7,
+   "partial": false
+  },
+  {
+   "year": 2020,
+   "price_nominal": 223050,
+   "price_real": 306493,
+   "earn_nominal": 28460,
+   "earn_real": 39090,
+   "ratio": 7.84,
+   "partial": false
+  },
+  {
+   "year": 2021,
+   "price_nominal": 243750,
+   "price_real": 321849,
+   "earn_nominal": 30155,
+   "earn_real": 40800,
+   "ratio": 8.08,
+   "partial": false
+  },
+  {
+   "year": 2022,
+   "price_nominal": 267388,
+   "price_real": 316893,
+   "earn_nominal": 32022,
+   "earn_real": 41685,
+   "ratio": 8.35,
+   "partial": false
+  },
+  {
+   "year": 2023,
+   "price_nominal": 259862,
+   "price_real": 280451,
+   "earn_nominal": 34278,
+   "earn_real": 40054,
+   "ratio": 7.58,
+   "partial": false
+  },
+  {
+   "year": 2024,
+   "price_nominal": 265240,
+   "price_real": 276286,
+   "earn_nominal": 36109,
+   "earn_real": 38492,
+   "ratio": 7.35,
+   "partial": false
+  },
+  {
+   "year": 2025,
+   "price_nominal": 271809,
+   "price_real": 274942,
+   "earn_nominal": 37820,
+   "earn_real": 38766,
+   "ratio": 7.19,
+   "partial": true
+  },
+  {
+   "year": 2026,
+   "price_nominal": null,
+   "price_real": null,
+   "earn_nominal": 39000,
+   "earn_real": 39975,
+   "ratio": null,
+   "partial": false
+  }
+ ],
+ "meta": {
+  "price_source": "Nationwide Building Society house price index, quarterly data averaged to annual; real prices RPI-adjusted to 2025 Q2 (compiled by propertyinvestmentproject.co.uk)",
+  "earnings_source": "ONS NES/ASHE via FRED (AWEPPUKQ) 1975-2008 and ONS Average Weekly Earnings 2009-2025, x52; 2026 estimated. CPI multipliers from iamkate.com/uk-inflation, uplifted to 2026 prices (x1.025)",
+  "last_full_year": 2024,
+  "london_avg_price": 564719,
+  "london_price_date": "May 2025",
+  "london_price_source": "HM Land Registry UK House Price Index, London, all property types, May 2025",
+  "london_stock": 3800000,
+  "london_stock_source": "London Assembly Research Unit, London's Housing Stock (November 2024), MHCLG dwelling stock estimates: almost 3.8 million homes in 2023",
+  "uk_mean_earnings_2026": 39000
+ }
+}
