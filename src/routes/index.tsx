@@ -3,7 +3,6 @@ import { useState } from "react";
 
 import { ActionSection } from "@/components/ActionSection";
 import { Hero } from "@/components/Hero";
-import { HouseModel } from "@/components/HouseModel";
 import { LondonMap } from "@/components/LondonMap";
 import { MetricStrip } from "@/components/MetricStrip";
 import { Narrative } from "@/components/Narrative";
@@ -35,7 +34,6 @@ function Index() {
     <>
       <TopBar />
       <main>
-        <HouseModel />
         <Hero />
         <MetricStrip />
 

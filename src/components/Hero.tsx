@@ -1,9 +1,10 @@
 import { fmt, totals } from "@/lib/metrics";
+import { HouseModel } from "@/components/HouseModel";
 
 export function Hero() {
   return (
     <section className="hero">
-      <div>
+      <div className="hero-copy">
         <p className="eyebrow">
           LONDON HOUSING · CONSENTED BUT UNBUILT · DATA TO {totals.retrieved}
         </p>
@@ -22,8 +23,7 @@ export function Hero() {
           who they were promised to, and which borough they belong to. Every figure is
           traceable to a published government dataset.
         </p>
-      </div>
-      <aside className="thesis">
+        <aside className="thesis">
         <span className="pulse" />
         <p>THE THESIS</p>
         <strong>
@@ -34,7 +34,11 @@ export function Hero() {
           Sources: Planning London Datahub (GLA), MHCLG Housing Delivery Test 2023, MHCLG
           planning performance Table P151a.
         </p>
-      </aside>
+        </aside>
+      </div>
+      <div className="hero-model">
+        <HouseModel />
+      </div>
     </section>
   );
 }

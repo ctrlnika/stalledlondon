@@ -244,8 +244,13 @@ button,
   min-height: 300px;
   padding: 36px 3.2vw 28px;
   display: grid;
-  grid-template-columns: 1fr 310px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
   gap: 35px;
+}
+.hero-model {
+  display: flex;
+  justify-content: center;
 }
 .eyebrow {
   margin: 0;
@@ -349,11 +354,18 @@ h2 em {
   flex-direction: column;
   align-items: center;
 }
+.model-frame {
+  width: 500px;
+  max-width: 100%;
+  height: 500px;
+  overflow: hidden;
+}
 .model-embed iframe {
   display: block;
   width: 500px;
-  height: 500px;
+  height: 620px;
   max-width: 100%;
+  margin-top: -60px;
   border: 0;
   background: transparent;
 }
