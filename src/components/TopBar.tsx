@@ -14,6 +14,9 @@ export function TopBar() {
       <nav>
         <a href="/#map">Map</a>
         <a href="/#register">Register</a>
+        <Link to="/simulation" activeProps={{ className: "is-active" }}>
+          Simulation
+        </Link>
         <Link to="/sources" activeProps={{ className: "is-active" }}>
           Sources
         </Link>
