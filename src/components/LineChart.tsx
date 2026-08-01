@@ -14,12 +14,14 @@ export function LineChart({
   xFormat = (v) => String(v),
   height = 340,
   yLabel,
+  zeroBased = true,
 }: {
   series: ChartSeries[];
   yFormat: (v: number) => string;
   xFormat?: (v: number) => string;
   height?: number;
   yLabel?: string;
+  zeroBased?: boolean;
 }) {
   const uid = useId().replace(/[^a-zA-Z0-9]/g, "");
   const [hoverX, setHoverX] = useState<number | null>(null);
@@ -30,7 +32,11 @@ export function LineChart({
   const ys = all.map((p) => p.y);
   const minX = Math.min(...xs);
   const maxX = Math.max(...xs);
-  const maxY = Math.max(...ys) * 1.06;
+  const rawMax = Math.max(...ys);
+  const rawMin = Math.min(...ys);
+  const pad = (rawMax - rawMin) * 0.35 || rawMax * 0.05;
+  const minY = zeroBased ? 0 : Math.max(0, rawMin - pad);
+  const maxY = zeroBased ? rawMax * 1.06 : rawMax + pad;
 
   const W = 1000;
   const H = height;
@@ -40,10 +46,14 @@ export function LineChart({
   const padB = 34;
 
   const sx = (x: number) => padL + ((x - minX) / (maxX - minX)) * (W - padL - padR);
-  const sy = (y: number) => H - padB - (y / maxY) * (H - padT - padB);
+  const sy = (y: number) =>
+    H - padB - ((y - minY) / (maxY - minY)) * (H - padT - padB);
 
   const ticks = 5;
-  const yTicks = Array.from({ length: ticks + 1 }, (_, i) => (maxY / ticks) * i);
+  const yTicks = Array.from(
+    { length: ticks + 1 },
+    (_, i) => minY + ((maxY - minY) / ticks) * i,
+  );
   const xTicks: number[] = [];
   for (let y = Math.ceil(minX / 10) * 10; y <= maxX; y += 10) xTicks.push(y);
 

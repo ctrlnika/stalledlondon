@@ -116,6 +116,7 @@ export function AffordabilitySim() {
 
       <LineChart
         height={300}
+        zeroBased={false}
         series={[
           {
             id: "curve",
