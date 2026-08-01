@@ -1217,14 +1217,9 @@ tbody tr.active {
     height: auto;
     min-height: 62px;
     padding: 12px 18px;
-    gap: 12px;
-  }
-  .topbar {
+    gap: 12px 12px;
     font-size: 10px;
-  }
-  .topbar {
     flex-wrap: wrap;
-    row-gap: 8px;
   }
   .topbar nav {
     gap: 16px;
