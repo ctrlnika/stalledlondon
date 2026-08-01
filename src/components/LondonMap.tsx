@@ -39,7 +39,7 @@ export function LondonMap({
     staleTime: Infinity,
   });
 
-  const labelGroups = new Map<string, { x: number; y: number; parts: typeof geo.labels }>();
+  const labelGroups = new Map<string, { x: number; y: number; parts: Geo["labels"] }>();
   for (const l of geo?.labels ?? []) {
     const key = `${l.x},${l.y}`;
     const g = labelGroups.get(key) ?? { x: l.x, y: l.y, parts: [] };
