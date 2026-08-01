@@ -22,8 +22,8 @@ export function HouseModel() {
           terraced house
         </a>{" "}
         by{" "}
-        <a href="https://sketchfab.com/hnika" target="_blank" rel="noopener nofollow">
-          nika
+        <a href="https://sketchfab.com/rhcreations" target="_blank" rel="noopener nofollow">
+          RHCREATIONS
         </a>{" "}
         on{" "}
         <a href="https://sketchfab.com" target="_blank" rel="noopener nofollow">
