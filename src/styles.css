@@ -1222,10 +1222,15 @@ tbody tr.active {
   .topbar {
     font-size: 10px;
   }
+  .topbar {
+    flex-wrap: wrap;
+    row-gap: 8px;
+  }
   .topbar nav {
-    gap: 12px;
+    gap: 16px;
     flex-wrap: nowrap;
-    justify-content: flex-end;
+    width: 100%;
+    justify-content: space-between;
   }
   .logo {
     font-size: 15px;
