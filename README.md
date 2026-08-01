@@ -1,5 +1,7 @@
 # Stalled London
 
+**Live site:** [https://stalledlondon.lovable.app](https://stalledlondon.lovable.app)
+
 An interactive data storytelling platform that visualises London's stalled housing pipeline and the affordability gap it creates.
 
 Built for the **House London #0 | Data Hackathon**, it turns planning and housing data into an explorable story: an interactive borough map, a stalled sites register, and a simulation of what it would mean if London's approved-but-unbuilt homes were actually delivered.
