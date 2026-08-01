@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import { ActionSection } from "@/components/ActionSection";
 import { Hero } from "@/components/Hero";
+import { HouseModel } from "@/components/HouseModel";
 import { LondonMap } from "@/components/LondonMap";
 import { MetricStrip } from "@/components/MetricStrip";
 import { Narrative } from "@/components/Narrative";
@@ -56,6 +57,26 @@ function Index() {
           </div>
 
           <LondonMap selected={borough} onSelect={setBorough} />
+        </section>
+
+        <section className="explorer">
+          <div className="section-heading">
+            <div>
+              <p className="eyebrow">THE UNIT · WHAT IS NOT BEING BUILT</p>
+              <h2>
+                One home,
+                <br />
+                <em>multiplied</em> {fmt(totals.homes)} times.
+              </h2>
+            </div>
+            <p className="disclaimer">
+              Every consent in the register resolves to something like this: a terraced
+              house, a flat, a doorstep. Drag to rotate the model — then remember the
+              register counts {fmt(totals.homes)} of them that exist only on paper.
+            </p>
+          </div>
+
+          <HouseModel />
         </section>
 
         <Narrative />
