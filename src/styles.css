@@ -241,8 +241,8 @@ button,
 
 /* --- hero ------------------------------------------------------------------ */
 .hero {
-  min-height: 480px;
-  padding: 57px 3.2vw 35px;
+  min-height: 300px;
+  padding: 36px 3.2vw 28px;
   display: grid;
   grid-template-columns: 1fr 310px;
   gap: 35px;
@@ -253,10 +253,10 @@ button,
   letter-spacing: 0.02em;
 }
 .hero h1 {
-  font-size: clamp(71px, 10.5vw, 145px);
-  line-height: 0.76;
-  letter-spacing: -0.1em;
-  margin: 44px 0 23px;
+  font-size: clamp(36px, 5.5vw, 72px);
+  line-height: 0.82;
+  letter-spacing: -0.09em;
+  margin: 26px 0 18px;
 }
 .hero em,
 h2 em {
