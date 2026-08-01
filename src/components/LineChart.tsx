@@ -89,8 +89,16 @@ export function LineChart({
             </text>
           </g>
         ))}
-        {xTicks.map((t) => (
-          <text key={t} className="axis" x={sx(t)} y={H - 12} textAnchor="middle">
+        {xTicks.map((t, i) => (
+          <text
+            key={t}
+            className="axis"
+            x={sx(t)}
+            y={H - 12}
+            textAnchor={
+              i === 0 ? "start" : i === xTicks.length - 1 ? "end" : "middle"
+            }
+          >
             {xFormat(t)}
           </text>
         ))}
