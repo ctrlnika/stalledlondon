@@ -346,13 +346,14 @@ h2 em {
 .model-embed {
   margin-top: 44px;
   border: 1px solid var(--ink);
+  background: var(--paper);
 }
 .model-embed iframe {
   display: block;
   width: 100%;
   height: clamp(320px, 52vh, 560px);
   border: 0;
-  background: var(--ink);
+  background: transparent;
 }
 .model-credit {
   margin: 0;

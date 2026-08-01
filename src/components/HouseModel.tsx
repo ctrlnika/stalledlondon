@@ -3,7 +3,7 @@ export function HouseModel() {
     <div className="model-embed">
       <iframe
         title="Terraced House"
-        src="https://sketchfab.com/models/08d02b6f7ca34af7ac06130d29546c7b/embed?autospin=0.2&ui_theme=dark"
+        src="https://sketchfab.com/models/08d02b6f7ca34af7ac06130d29546c7b/embed?autospin=0.2&ui_theme=dark&transparent=1"
         allow="autoplay; fullscreen; xr-spatial-tracking"
         allowFullScreen
         loading="lazy"
